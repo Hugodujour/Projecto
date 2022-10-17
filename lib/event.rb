@@ -14,9 +14,9 @@ class Event
 
 	def to_s
 		puts ">Titre: #{name_event}"
-		puts "Date de début: #{start_date}"
-		puts "Durée: #{min_event}"
-		puts "Invités: #{mail}"
+		puts ">Date de début: #{start_date}"
+		puts ">Durée: #{min_event}"
+		puts ">Invités: #{@@mail}"
 	end
 
 	def postpone_24h
